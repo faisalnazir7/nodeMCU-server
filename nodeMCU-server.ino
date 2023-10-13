@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 
-const char* ssid = "binaryupdates";   // Enter SSID here
-const char* password = "bestcourses"; // Enter Password here
+const char* ssid = "wifi-name";   // Enter SSID here
+const char* password = "password"; // Enter Password here
 
 ESP8266WebServer server(80);
 bool LEDstatus = LOW;
